@@ -1,0 +1,157 @@
+/*初始化*/
+	*{
+		padding: 0;
+		margin:0;
+		font-family: "微软雅黑";
+	}
+/*头部导航*/
+	.header{
+		width: 100%;
+		height: 80px;
+	}
+	.header-nav{
+		width: 960px;
+	    height: 100%;
+	    margin: 0 auto;
+	}
+/*logo*/
+	.logo{
+		width: 150px;
+		height: 100%;
+		float: left;
+	}
+	.logo img{
+		padding-top: 5px;
+	}
+	.return {
+		float: right;
+		margin-top: 10px;
+	}
+	.return a{
+		text-decoration: none;
+		color: #466b90;
+		font-size: 20px;
+		line-height:60px;
+	}
+	/*登录部分*/
+	.body_img{
+		background-image: url(../images/webp.jpg);
+	    background-color: #efefef;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	}
+	.body_content{
+		width: 960px;
+		margin: 0 auto;
+
+	}
+	.body_login{
+		width: 960px;
+		height: 480px;
+		margin: 0 auto;
+	}
+	.container-1,.container-2{
+		width: 350px;
+		text-align: center;
+		float: right;
+		margin-right: 0px;
+		margin-top: 55px;
+	}
+	.container-2{
+		margin-top: 35px;
+	}
+	.login-logo{
+		padding:1em 0;
+		border-radius: 10px 10px 0 0;
+	    background: #2d3e50;
+	}
+	.login-logo p{
+			font-size:25px;
+			font-weight: bold;
+			text-align: center;
+			color: #fff;
+			font-family: "微软雅黑";
+	}
+	.login-signin{
+		background: #fff;
+		padding: 10px 0;
+		line-height: 35px;
+		border-radius: 0 0 10px 10px;
+	}
+	.login-signin form{
+		width: 90%;
+	    margin-left: 5%;
+	    margin-right: 5%;
+	    margin-bottom: 10px;
+	}
+
+	.login-signin h3{
+		text-align: left;
+		color: #2d3e50;
+		font-size: 14px;
+	}
+	.login-signin form input[type="text"],[type="password"]  {
+		width: 100%;
+		height: 30px;
+		padding-left: 5px;
+		color: #000;
+	}
+	.checkboxs{
+		float: left;
+		margin-top: 10px;
+		color: #2d3e50;
+		font-size: 14px;
+	}
+	form a{
+		float: right;
+		margin-top: 10px;
+		color: #2d3e50;
+		font-size: 14px;
+	}
+	.login-signin input[type="submit"],[type="button"]{
+		width: 100%;
+		height: 30px;
+		background: #466b90;
+		color: #fff;
+		padding: 2px;
+		font-size: 20px;
+		font-weight: bold;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+		border: none;
+		cursor:pointer;/*显示小手标志*/
+	}
+	
+	.login-ul{
+		width: 250px;
+		height: 40px;
+		margin:0 auto;
+		font-size: 14px;
+	}
+	.login-ul li{
+		float: left;
+		list-style:none;
+		padding-right: 5px;
+	}
+	.login-ul li a{
+		color: #2d3e50;
+		text-decoration: none;
+	}
+	
+/*尾部*/
+	.foot{
+		width: 100%;
+		border-top: 1px solid gray;
+	}
+	.foot_main{
+		overflow: hidden;
+		width: 960px;
+    	margin: 0 auto;
+		color: #3e3e3e;
+		font-size: 14px;
+		text-align: center;
+		padding: 20px;
+		line-height: 20px;
+	}

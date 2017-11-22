@@ -1,0 +1,194 @@
+*{
+	padding:0;
+	margin: 0;
+	}
+/*头部*/
+.header{
+	font-family:"微软雅黑";
+	height:70px;
+	width:100%;
+	background: #2d3e50;
+	margin-top:0;
+	}
+.logo{
+	margin-left: 5%;
+	float:left;
+	padding: 1em 0;
+	}
+.logo a{
+		text-decoration: none;
+		font-size:30px;
+		font-weight: bold;
+		text-align: center;
+		color: #fff;
+	}
+.top-nav{
+	float: right;
+	margin-right:5%;
+	padding: 1.5em 0
+}
+.top-nav ul{
+	margin: 0;
+	padding: 0;
+}
+.top-nav li{
+	margin-right: 25px;
+	float: left;
+	list-style-type:none;
+	letter-spacing: 3px;
+}
+.top-nav ul li a{
+	color: #fff;
+	text-decoration:none;
+	font-size:18px;
+	color: #fff;
+}
+/*body部分*/
+body{background: #18bb9c;}
+.content{
+	width:100%;
+	margin-top:0;
+
+}
+.container{
+		width:40%;
+		margin-left: 30%;
+		margin-right: 20%;
+		text-align: center;
+		padding-top: 6em;
+
+}
+.container-1{
+		width: 90%;
+		margin-left: 5%;
+   		text-align: center;
+		color:#607d8b
+}
+
+.image{
+    width: 100%;
+    height: 170px;
+}
+.texts{
+	color:#fff;
+	padding:1em 0;
+	line-height: 50px;
+	margin-top: 20px;
+}
+.texts h1{
+	font-family:"微软雅黑";
+    font-size: 30px;
+    font-weight: bold;
+}
+.texts hr{
+	margin-left:10%;
+	 width:80%;
+	 color:#fff;
+}
+.texts p{
+	font-size: 20px;
+	
+}
+
+/*表单登录注册部分*/
+.container-2, .container-3{
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+}
+.login-logo{
+	padding:1em 0;
+	border-radius: 10px 10px 0 0;
+    background: #2d3e50;
+}
+.login-logo p{
+		font-size:25px;
+		font-weight: bold;
+		text-align: center;
+		color: #fff;
+		font-family: "微软雅黑";
+}
+.login-signin{
+	height: 280px;
+	background: #fff;
+	padding: 2em 0;
+	line-height: 3em;
+	border-radius: 0 0 10px 10px;
+}
+.reg{
+	height: 315px;
+}
+.login-signin form{
+	width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.login-signin h3{
+	text-align: left;
+	color: #2d3e50;
+}
+.login-signin form input[type="text"],[type="password"]  {
+	width: 100%;
+	height: 30px;
+	padding-left: 5px;
+	color: #000;
+}
+.checkboxs{
+	float: left;
+	margin-top: 10px;
+	color: #2d3e50;
+}
+form a{
+	float: right;
+	margin-top: 10px;
+	color: #2d3e50;
+}
+.login-signin input[type="submit"],[type="button"]{
+	width: 100%;
+	height: 30px;
+	background: #18bb9c;
+	color: #fff;
+	margin-top:20px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	border: none;
+}
+.regbutton{
+	margin-top: 40px;
+}
+.login-ul{
+	width: 60%;
+	height: 40px;
+	margin-left: 20%;
+	font-size: 14px;
+}
+.login-ul li{
+	float: left;
+	list-style:none;
+	padding-right: 5px;
+}
+.login-ul li a{
+	color: #2d3e50;
+	text-decoration: none;
+}
+/*尾部*/
+.footer{
+	width: 100%;
+    padding:2em 0;
+    height: 100px;
+}
+.main-footer{
+	width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    padding: 2em 0;
+
+}
+.main-footer p{
+	font-size: 12px;
+	color: #3c3c3c;
+	margin-top: 5px;
+}
